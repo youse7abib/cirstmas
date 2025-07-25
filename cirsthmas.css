@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    text-align: center;
+    text-decoration: solid;
+    overflow-x: hidden;
+    background-image: url(cristmas.jpg);
+    background-image: cover;
+}
+
+header {
+    color: white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 4px #000;
+    border: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.content {
+    padding: 40px;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: skyblue;
+
+}
+
+.Capsule_time {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 2rem;
+    border: dashed blueviolet 2px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 255);
+
+}
+
+.Capsule_time p {
+    font-size: 2rem;
+    color: gold;
+}
+
+.Capsule_time textarea {
+    width: 95%;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    resize: none;
+}
+
+textarea::placeholder {
+    font-size: 10px;
+    color: gold;
+}
+
+input {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+
+}
+
+.Capsule_time input {
+    width: 100px;
+    margin: 10px;
+    padding: 7px;
+    border: 2px solid;
+    border-color: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    border-radius: 5px;
+    resize: none;
+    font-size: 1rem;
+
+}
+
+.Capsule_time button {
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: skyblue;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: mymove 5s infinite;
+
+
+}
+
+.Capsule_time button:hover {
+    background-color: blueviolet;
+    transform: scale(1.2);
+    animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: 20px 30px 40px skyblue
+    }
+}
+
+footer {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: skyblue;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 20px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.ornament {
+    position: absolute;
+    animation: swing 4s ease-in-out infinite;
+}
+
+.ornament:nth-child(1) {
+    top: 10%;
+    left: 15%;
+}
+
+.ornament:nth-child(2) {
+    top: 15%;
+    left: 70%;
+}
+
+@keyframes swing {
+
+    0%,
+    100% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+img {
+    margin: 20px;
+    width: 150px;
+}
